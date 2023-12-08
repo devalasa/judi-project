@@ -1,0 +1,267 @@
+#content {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+#bg {
+    position: relative;
+}
+
+.logo-img {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    width: 1500px;
+    height: 752px;
+    flex-shrink: 0;
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link {
+    color: #CDCDCD;
+    text-align: center;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #863A20;
+    text-align: center;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+nav img {
+    width: 100px;
+}
+
+.hero {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 205px 322px 256px 402px;
+    gap: 10px;
+}
+
+.dot {
+    width: 6px;
+    height: 5px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+}
+    
+h1 {
+    color: #863A20;
+    font-family: Clash Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Clash Grotesk, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+h2 span {
+    color: #863A20;
+    font-family: Clash Grotesk, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+.hero p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    display: inline-flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #863A20;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+h3 {
+    color: #863A20;
+    text-align: center;
+    font-family: Clash Grotesk, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: #050401;
+    text-align: center;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    text-align: center;
+    width: 1140px;
+    height: 458px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px 200px 20px 200px;
+}
+
+.arrow1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.arrow2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+    margin-right: 50px;   
+}
+.icon {
+    width: 54px;
+    height: 54px;
+}
+
+.text {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 350px;
+    padding: 30px 20px;
+    background: #FFF;
+    box-shadow: 0px 14px 54px 0px rgba(0, 0, 0, 0.10);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+h4 {
+    color: #050401;
+    text-align: center;
+    font-family: Clash Grotesk, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.notes {
+    color: #050401;
+    font-family: Satoshi Variable, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 350px;
+}
+
+.clients {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.logos {
+    display: flex;
+    width: 1365px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+}
+
+h5 {
+    color: #863A20;
+    text-align: center;
+    font-family: Clash Grotesk, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo {
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.15);
+    width: 100px;
+    height: 100px;
+}
